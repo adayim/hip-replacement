@@ -1,16 +1,10 @@
-
-library(nlme)
-library(lme4)
-library(optimx)
+library(metafor)
 
 rm(list = ls())
 
 # Include data
 # source("progs/03-prep-registry-data.R")
 
-
-library(glmmTMB)
-library(metafor)
 
 dat <- dat[dat$bearingsurface != "Ceramicised Metal/XLPE", ]
 
